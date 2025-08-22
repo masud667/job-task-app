@@ -1,6 +1,4 @@
-// app/gallery/page.js
 import Link from "next/link";
-import Image from "next/image";
 import Navbar from "../Components/Navbar";
 import dbConnect from "@/lib/dbConnect";
 

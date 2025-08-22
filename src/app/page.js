@@ -1,4 +1,6 @@
+
 import Gallery from "./Components/gallery";
+import Hero from "./Components/hero";
 import Navbar from "./Components/Navbar";
 
 
@@ -7,6 +9,7 @@ export default function Home() {
    <div>
      <Navbar></Navbar>
    <main>
+    <Hero />
     <Gallery />
    </main>
    </div>
