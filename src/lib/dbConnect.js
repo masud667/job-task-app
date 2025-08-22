@@ -1,5 +1,6 @@
 import { MongoClient, ServerApiVersion }  from 'mongodb';
 
+
 export default function dbConnect(collectionName){
 const user = process.env.MONGODB_USER;
 const password = process.env.MONGODB_PASS;
