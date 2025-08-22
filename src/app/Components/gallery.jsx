@@ -68,11 +68,11 @@ export default async function Gallery() {
     }
   ];
 
-  const items = gallery.slice(0, 8);
+  const items = gallery.slice(0, 6);
 
   return (
-    <section className="py-16 bg-gradient-to-br from-purple-50 to-blue-50">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="py-16 bg-base-100">
+      <div className="w-11/12 mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Gallery</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -89,7 +89,7 @@ export default async function Gallery() {
           <button className="btn btn-ghost">Nature</button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map((item) => (
             <div key={item.id} className="card bg-base-100 shadow-xl overflow-hidden group">
               <figure className="overflow-hidden">

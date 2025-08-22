@@ -12,7 +12,7 @@ export default function Navbar() {
   );
 
   return (
-    <div className=" bg-base-100 shadow-sm ">
+    <div className=" bg-base-100 shadow-sm sticky">
       <div className='navbar w-11/12 mx-auto'>
         <div className="navbar-start">
         <div className="dropdown">
